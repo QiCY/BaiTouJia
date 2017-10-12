@@ -74,10 +74,10 @@
 		18218BEB1F8F0EA40090C533 /* BaiTouJia */ = {
 			isa = PBXGroup;
 			children = (
-				18218C181F8F12450090C533 /* Login */,
+				DD3FD5C21F8F1BCB0082958C /* Login */,
+				DD3FD5C11F8F1BCB0082958C /* SDK */,
 				18218C141F8F11120090C533 /* Manange */,
 				18218C061F8F0F3B0090C533 /* Common */,
-				18218C051F8F0F310090C533 /* SDK */,
 				18218C041F8F0F200090C533 /* Health */,
 				18218C031F8F0F100090C533 /* TouXi */,
 				18218C021F8F0F030090C533 /* Mine */,
@@ -120,13 +120,6 @@
 			path = Health;
 			sourceTree = "<group>";
 		};
-		18218C051F8F0F310090C533 /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SDK;
-			sourceTree = "<group>";
-		};
 		18218C061F8F0F3B0090C533 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +140,14 @@
 			path = Manange;
 			sourceTree = "<group>";
 		};
-		18218C181F8F12450090C533 /* Login */ = {
+		DD3FD5C11F8F1BCB0082958C /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		DD3FD5C21F8F1BCB0082958C /* Login */ = {
 			isa = PBXGroup;
 			children = (
 			);

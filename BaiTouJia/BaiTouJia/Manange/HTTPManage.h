@@ -10,4 +10,7 @@
 
 @interface HTTPManage : NSObject
 +(id)shareInstance;
+-(void)sendDataRequest:(NSString *)URLString
+            parameters:(id)parameters data:(void (^)(id data))response;
+
 @end

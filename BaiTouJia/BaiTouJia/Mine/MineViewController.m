@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[HTTPManage shareInstance] sendDataRequest:@"http://baidu.com" parameters:nil data:^(id data) {
+        NSLog(@"%@",data);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

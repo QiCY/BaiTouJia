@@ -42,6 +42,7 @@
 //    tab.tabBar.barTintColor = [UIColor blackColor];
     
     [tab.tabBar showBadgeOnItmIndex:1 text:@"2"];
+   
     return tab;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -8,24 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		18218BEE1F8F0EA40090C533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218BED1F8F0EA40090C533 /* AppDelegate.m */; };
-		18218BF11F8F0EA40090C533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218BF01F8F0EA40090C533 /* ViewController.m */; };
 		18218BF41F8F0EA40090C533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18218BF21F8F0EA40090C533 /* Main.storyboard */; };
 		18218BF61F8F0EA40090C533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18218BF51F8F0EA40090C533 /* Assets.xcassets */; };
 		18218BF91F8F0EA40090C533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18218BF71F8F0EA40090C533 /* LaunchScreen.storyboard */; };
 		18218BFC1F8F0EA40090C533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218BFB1F8F0EA40090C533 /* main.m */; };
+		18218C091F8F10080090C533 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C081F8F10080090C533 /* BaseViewController.m */; };
+		18218C0D1F8F10840090C533 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C0C1F8F10840090C533 /* MineViewController.m */; };
+		18218C101F8F10950090C533 /* TouXiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C0F1F8F10950090C533 /* TouXiViewController.m */; };
+		18218C131F8F10A50090C533 /* HealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C121F8F10A50090C533 /* HealthViewController.m */; };
+		18218C171F8F112C0090C533 /* HTTPManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C161F8F112C0090C533 /* HTTPManage.m */; };
+		18218C1E1F8F14690090C533 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C1D1F8F14690090C533 /* BaseResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18218BE91F8F0EA40090C533 /* BaiTouJia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiTouJia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18218BEC1F8F0EA40090C533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18218BED1F8F0EA40090C533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18218BEF1F8F0EA40090C533 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18218BF01F8F0EA40090C533 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18218BF31F8F0EA40090C533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18218BF51F8F0EA40090C533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18218BF81F8F0EA40090C533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18218BFA1F8F0EA40090C533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18218BFB1F8F0EA40090C533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18218C071F8F10080090C533 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18218C081F8F10080090C533 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		18218C0A1F8F10300090C533 /* BaiTouJia-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiTouJia-prefix.pch"; sourceTree = "<group>"; };
+		18218C0B1F8F10840090C533 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		18218C0C1F8F10840090C533 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		18218C0E1F8F10950090C533 /* TouXiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouXiViewController.h; sourceTree = "<group>"; };
+		18218C0F1F8F10950090C533 /* TouXiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouXiViewController.m; sourceTree = "<group>"; };
+		18218C111F8F10A50090C533 /* HealthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthViewController.h; sourceTree = "<group>"; };
+		18218C121F8F10A50090C533 /* HealthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthViewController.m; sourceTree = "<group>"; };
+		18218C151F8F112C0090C533 /* HTTPManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPManage.h; sourceTree = "<group>"; };
+		18218C161F8F112C0090C533 /* HTTPManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPManage.m; sourceTree = "<group>"; };
+		18218C1C1F8F14690090C533 /* BaseResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		18218C1D1F8F14690090C533 /* BaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +74,84 @@
 		18218BEB1F8F0EA40090C533 /* BaiTouJia */ = {
 			isa = PBXGroup;
 			children = (
+				18218C181F8F12450090C533 /* Login */,
+				18218C141F8F11120090C533 /* Manange */,
+				18218C061F8F0F3B0090C533 /* Common */,
+				18218C051F8F0F310090C533 /* SDK */,
+				18218C041F8F0F200090C533 /* Health */,
+				18218C031F8F0F100090C533 /* TouXi */,
+				18218C021F8F0F030090C533 /* Mine */,
 				18218BEC1F8F0EA40090C533 /* AppDelegate.h */,
 				18218BED1F8F0EA40090C533 /* AppDelegate.m */,
-				18218BEF1F8F0EA40090C533 /* ViewController.h */,
-				18218BF01F8F0EA40090C533 /* ViewController.m */,
 				18218BF21F8F0EA40090C533 /* Main.storyboard */,
 				18218BF51F8F0EA40090C533 /* Assets.xcassets */,
 				18218BF71F8F0EA40090C533 /* LaunchScreen.storyboard */,
 				18218BFA1F8F0EA40090C533 /* Info.plist */,
 				18218BFB1F8F0EA40090C533 /* main.m */,
+				18218C0A1F8F10300090C533 /* BaiTouJia-prefix.pch */,
 			);
 			path = BaiTouJia;
+			sourceTree = "<group>";
+		};
+		18218C021F8F0F030090C533 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				18218C0B1F8F10840090C533 /* MineViewController.h */,
+				18218C0C1F8F10840090C533 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		18218C031F8F0F100090C533 /* TouXi */ = {
+			isa = PBXGroup;
+			children = (
+				18218C0E1F8F10950090C533 /* TouXiViewController.h */,
+				18218C0F1F8F10950090C533 /* TouXiViewController.m */,
+			);
+			path = TouXi;
+			sourceTree = "<group>";
+		};
+		18218C041F8F0F200090C533 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				18218C111F8F10A50090C533 /* HealthViewController.h */,
+				18218C121F8F10A50090C533 /* HealthViewController.m */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		18218C051F8F0F310090C533 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		18218C061F8F0F3B0090C533 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18218C071F8F10080090C533 /* BaseViewController.h */,
+				18218C081F8F10080090C533 /* BaseViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18218C141F8F11120090C533 /* Manange */ = {
+			isa = PBXGroup;
+			children = (
+				18218C151F8F112C0090C533 /* HTTPManage.h */,
+				18218C161F8F112C0090C533 /* HTTPManage.m */,
+				18218C1C1F8F14690090C533 /* BaseResponse.h */,
+				18218C1D1F8F14690090C533 /* BaseResponse.m */,
+			);
+			path = Manange;
+			sourceTree = "<group>";
+		};
+		18218C181F8F12450090C533 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18218BF11F8F0EA40090C533 /* ViewController.m in Sources */,
+				18218C171F8F112C0090C533 /* HTTPManage.m in Sources */,
 				18218BFC1F8F0EA40090C533 /* main.m in Sources */,
+				18218C101F8F10950090C533 /* TouXiViewController.m in Sources */,
+				18218C1E1F8F14690090C533 /* BaseResponse.m in Sources */,
+				18218C131F8F10A50090C533 /* HealthViewController.m in Sources */,
+				18218C091F8F10080090C533 /* BaseViewController.m in Sources */,
 				18218BEE1F8F0EA40090C533 /* AppDelegate.m in Sources */,
+				18218C0D1F8F10840090C533 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +367,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiTouJia/BaiTouJia-prefix.pch";
 				INFOPLIST_FILE = BaiTouJia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qicy.com.BaiTouJia;
@@ -292,6 +382,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiTouJia/BaiTouJia-prefix.pch";
 				INFOPLIST_FILE = BaiTouJia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qicy.com.BaiTouJia;

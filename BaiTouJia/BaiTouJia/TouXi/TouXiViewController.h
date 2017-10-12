@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TouXiViewController.h
 //  BaiTouJia
 //
 //  Created by apple on 2017/10/12.
 //  Copyright © 2017年 apple. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface TouXiViewController : BaseViewController
 
 @end
-

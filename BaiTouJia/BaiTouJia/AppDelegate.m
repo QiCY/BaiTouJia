@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TouXiViewController.h"
+#import "MineViewController.h"
+#import "HealthViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,10 +19,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.rootViewController = [self tabBarViewController];
     return YES;
 }
 
-
+- (UITabBarController *)tabBarViewController{
+    UINavigationController *touxiNav = [[UINavigationController alloc] initWithRootViewController:[TouXiViewController new]];
+    touxiNav.tabBarItem.title = @"透析";
+    
+    UINavigationController *mineNav = [[UINavigationController alloc] initWithRootViewController:[MineViewController new]];
+    mineNav.tabBarItem.title = @"我";
+    
+    UINavigationController *healthNav = [[UINavigationController alloc] initWithRootViewController:[HealthViewController new]];
+    healthNav.tabBarItem.title = @"健康";
+    
+    UITabBarController *tab = [[UITabBarController alloc] init];
+    tab.viewControllers = @[touxiNav,healthNav,mineNav];
+    tab.tabBar.tintColor = [UIColor orangeColor];
+    //设置标签栏的颜色
+//    tab.tabBar.barTintColor = [UIColor blackColor];
+    
+   
+    return tab;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

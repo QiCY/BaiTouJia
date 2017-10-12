@@ -18,6 +18,7 @@
 		18218C131F8F10A50090C533 /* HealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C121F8F10A50090C533 /* HealthViewController.m */; };
 		18218C171F8F112C0090C533 /* HTTPManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C161F8F112C0090C533 /* HTTPManage.m */; };
 		18218C1E1F8F14690090C533 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C1D1F8F14690090C533 /* BaseResponse.m */; };
+		DD3FD5C51F8F1C5A0082958C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3FD5C41F8F1C5A0082958C /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		18218C161F8F112C0090C533 /* HTTPManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPManage.m; sourceTree = "<group>"; };
 		18218C1C1F8F14690090C533 /* BaseResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
 		18218C1D1F8F14690090C533 /* BaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		DD3FD5C31F8F1C5A0082958C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DD3FD5C41F8F1C5A0082958C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 		DD3FD5C21F8F1BCB0082958C /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				DD3FD5C31F8F1C5A0082958C /* LoginViewController.h */,
+				DD3FD5C41F8F1C5A0082958C /* LoginViewController.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				18218C101F8F10950090C533 /* TouXiViewController.m in Sources */,
 				18218C1E1F8F14690090C533 /* BaseResponse.m in Sources */,
 				18218C131F8F10A50090C533 /* HealthViewController.m in Sources */,
+				DD3FD5C51F8F1C5A0082958C /* LoginViewController.m in Sources */,
 				18218C091F8F10080090C533 /* BaseViewController.m in Sources */,
 				18218BEE1F8F0EA40090C533 /* AppDelegate.m in Sources */,
 				18218C0D1F8F10840090C533 /* MineViewController.m in Sources */,

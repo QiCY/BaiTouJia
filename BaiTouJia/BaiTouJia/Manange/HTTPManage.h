@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface HTTPManage : NSObject
-
++(id)shareInstance;
 @end

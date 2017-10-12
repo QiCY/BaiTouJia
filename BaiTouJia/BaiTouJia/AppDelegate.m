@@ -10,6 +10,7 @@
 #import "TouXiViewController.h"
 #import "MineViewController.h"
 #import "HealthViewController.h"
+#import "UITabBar+badge.h"
 @interface AppDelegate ()
 
 @end
@@ -40,7 +41,7 @@
     //设置标签栏的颜色
 //    tab.tabBar.barTintColor = [UIColor blackColor];
     
-   
+    [tab.tabBar showBadgeOnItmIndex:1 text:@"2"];
     return tab;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {

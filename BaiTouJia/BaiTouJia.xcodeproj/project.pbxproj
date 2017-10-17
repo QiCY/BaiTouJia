@@ -42,6 +42,10 @@
 		18218C7A1F8F54830090C533 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C321F8F2BC70090C533 /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		18218C7B1F8F54830090C533 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C361F8F2BC70090C533 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		18218C7C1F8F54830090C533 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218C351F8F2BC70090C533 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		18F13D231F95DDDA008E34BE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F13D221F95DDDA008E34BE /* MediaPlayer.framework */; };
+		18F13D251F95DDE5008E34BE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F13D241F95DDE5008E34BE /* CoreVideo.framework */; };
+		18F13D271F95DDF0008E34BE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F13D261F95DDF0008E34BE /* CoreMedia.framework */; };
+		18F13D291F95DDFA008E34BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F13D281F95DDFA008E34BE /* AVFoundation.framework */; };
 		DD3FD5C51F8F1C5A0082958C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3FD5C41F8F1C5A0082958C /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +115,11 @@
 		18218C5D1F8F537B0090C533 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		18218C5F1F8F53830090C533 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		18218C611F8F538D0090C533 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18218C7D1F8F68120090C533 /* CommonDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDef.h; sourceTree = "<group>"; };
+		18F13D221F95DDDA008E34BE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		18F13D241F95DDE5008E34BE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		18F13D261F95DDF0008E34BE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18F13D281F95DDFA008E34BE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DD3FD5C31F8F1C5A0082958C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		DD3FD5C41F8F1C5A0082958C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +129,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F13D291F95DDFA008E34BE /* AVFoundation.framework in Frameworks */,
+				18F13D271F95DDF0008E34BE /* CoreMedia.framework in Frameworks */,
+				18F13D251F95DDE5008E34BE /* CoreVideo.framework in Frameworks */,
+				18F13D231F95DDDA008E34BE /* MediaPlayer.framework in Frameworks */,
 				18218C621F8F538D0090C533 /* QuartzCore.framework in Frameworks */,
 				18218C601F8F53830090C533 /* Security.framework in Frameworks */,
 				18218C5E1F8F537B0090C533 /* SystemConfiguration.framework in Frameworks */,
@@ -208,6 +221,7 @@
 				18218C231F8F26260090C533 /* UITabBar+badge.m */,
 				18218C4F1F8F47BD0090C533 /* CMPickerView.h */,
 				18218C501F8F47BD0090C533 /* CMPickerView.m */,
+				18218C7D1F8F68120090C533 /* CommonDef.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -273,6 +287,10 @@
 		18218C541F8F53470090C533 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18F13D281F95DDFA008E34BE /* AVFoundation.framework */,
+				18F13D261F95DDF0008E34BE /* CoreMedia.framework */,
+				18F13D241F95DDE5008E34BE /* CoreVideo.framework */,
+				18F13D221F95DDDA008E34BE /* MediaPlayer.framework */,
 				18218C611F8F538D0090C533 /* QuartzCore.framework */,
 				18218C5F1F8F53830090C533 /* Security.framework */,
 				18218C5D1F8F537B0090C533 /* SystemConfiguration.framework */,

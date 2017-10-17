@@ -7,7 +7,7 @@
 //
 
 #import "MineViewController.h"
-
+#import "CMPickerView.h"
 @interface MineViewController ()
 
 @end
@@ -20,6 +20,8 @@
     [[HTTPManage shareInstance] sendDataRequest:@"http://baidu.com" parameters:nil data:^(id data) {
         NSLog(@"%@",data);
     }];
+    CMPickerView *pickerView = [[CMPickerView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT) withType:PICKER_DATE];
+    [self.view addSubview:pickerView];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BaiTouJia/Mine/MineViewController.m"
-            timestampString = "529491903.489723"
+            timestampString = "529494706.009409"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
@@ -26,12 +26,12 @@
                   moduleName = "BaiTouJia"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/apple/Desktop/Baitoujia/Baitoujia/BaiTouJia/BaiTouJia/Mine/MineViewController.m"
-                  timestampString = "529491903.50401"
+                  timestampString = "529917242.792793"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
-                  offsetFromSymbolStart = "54">
+                  offsetFromSymbolStart = "57">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -41,7 +41,7 @@
                   moduleName = "BaiTouJia"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/apple/Desktop/Baitoujia/Baitoujia/BaiTouJia/BaiTouJia/Mine/MineViewController.m"
-                  timestampString = "529491903.506921"
+                  timestampString = "529917242.79669"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "21"
